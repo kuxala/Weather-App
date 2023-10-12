@@ -5,7 +5,7 @@ body, html, h1, form {
 }
 
 body {
-    background-image: url(images/25501.jpg); /* Specify your background image here */
+    background-image: url(25501.jpg); /* Specify your background image here */
     background-repeat: no-repeat;
     background-size: cover; /* Cover the entire screen with the background image */
     background-attachment: fixed; /* Fix the background position */
