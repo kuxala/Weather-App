@@ -1,0 +1,120 @@
+@import url(' https://fonts.cdnfonts.com/css/hagrid-trial ');
+body, html, h1, form { 
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(images/25501.jpg); /* Specify your background image here */
+    background-repeat: no-repeat;
+    background-size: cover; /* Cover the entire screen with the background image */
+    background-attachment: fixed; /* Fix the background position */
+    width: 100%;
+    height: 100%;
+}
+
+.top-banner {
+    display: flex;   
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    justify-content: center;
+}
+body > section.top-banner > div{
+    /* background-color: rgba(255, 255, 255, 0.433); */
+    padding: 20px;
+    border-radius: 5px;
+}
+.top-banner .container {
+    display: flex;
+    flex-direction: column;
+    max-width: fit-content;
+    margin: 0;
+    margin-top: 20vh;
+    
+}
+
+.top-banner .heading {
+    color:  black;
+    text-shadow: 2px 2px rgb(3, 71, 110);
+    font-size: 50px;
+    font-family: 'Hagrid Trial', sans-serif;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+form input { 
+    padding: 10px;
+    border: 0px solid transparent;
+    background: transparent;
+    border-bottom: 2px solid white;
+}
+
+
+
+
+form input:focus {
+    outline: none;
+}
+
+form button {
+    color: black;
+    padding: 10px;
+    border: 0px solid transparent;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-family: 'Hagrid Trial', sans-serif;
+    
+    
+}
+
+.top-banner .msg {
+    color: #769FCD;
+    font-size: 0.8rem;
+    margin-top: 10px;
+}
+
+.ajax-section {
+    text-align: center;
+    background: transparent !important;
+}
+
+.ajax-section .cities {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: transparent !important;
+    list-style: none;
+    
+    
+}
+
+.cities li {
+    margin: 30px 15px;
+    padding: 20px;
+    border:  0px solid gray;
+    background-color: rgba(255, 255, 255, 0.2);
+    row-gap: 10px;
+    border-radius: 10px;
+    
+}
+
+@media (max-width: 768px) {
+    .ajax-section .cities {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background: transparent !important;
+        list-style: none;
+    }
+    .cities li {
+        margin: 50px 0;
+        padding: 2  0px;
+    }
+}
